@@ -9,7 +9,15 @@ Welcome to my personal portfolio website, a showcase of my journey and work in w
 - **Database:** MongoDB Atlas
 - **Styling:** CSS
 
+- ## Quick Demo
+
+- *Live link* - https://my-portfolio-kappa-nine-76.vercel.app/
+
   
+
+https://github.com/parhladSingh/My-Portfolio/assets/142223673/3cd4f23a-a1a3-4794-a5eb-002f44b03c49
+
+
 
 ## Features
 
