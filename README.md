@@ -11,7 +11,7 @@ Welcome to my personal portfolio website, a showcase of my journey and work in w
 
 - ## Quick Demo
 
-- *Live link* - https://my-portfolio-kappa-nine-76.vercel.app/
+- *Live link* - https://parhlad-singh-portfolio.vercel.app/
 
   
 
