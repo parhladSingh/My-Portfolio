@@ -27,9 +27,9 @@
       },
     {
         "title": "My Portfolio",
-        "imageSrc": "projects/personalDoctorImg.png",
-        "demo": " https://parhladsingh.github.io/To-Do-list/",
-        "source": "https://github.com/parhladSingh/To-Do-list"
+        "imageSrc": "projects/portfolio.png",
+        "demo": " https://parhlad-singh-portfolio.vercel.app/",
+        "source": "https://github.com/parhladSingh/My-Portfolio"
       },
       {
         "title": "X-UI-clone",
