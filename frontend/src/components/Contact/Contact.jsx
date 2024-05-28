@@ -50,27 +50,27 @@ const Contact = () => {
                 <div className={styles.row}>
                     <div className={styles.formGroup}>
                         <label htmlFor="firstName">First Name</label>
-                        <input onChange={handleChange} value={value.firstname} type="text" id="firstName" name="firstname" />
+                        <input onChange={handleChange} value={value.firstname} type="text" id="firstName" name="firstname" required/>
                     </div>
                     <div className={styles.formGroup}>
                         <label htmlFor="lastName">Last Name</label>
-                        <input onChange={handleChange} value={value.lastname} type="text" id="lastName" name="lastname" />
+                        <input onChange={handleChange} value={value.lastname} type="text" id="lastName" name="lastname" required />
                     </div>
                 </div>
                 <div className={styles.row}>
                     <div className={styles.formGroup}>
                         <label htmlFor="email">Email Address</label>
-                        <input onChange={handleChange} value={value.emailaddress} type="email" id="email" name="emailaddress" />
+                        <input onChange={handleChange} value={value.emailaddress} type="email" id="email" name="emailaddress" required/>
                     </div>
                     <div className={styles.formGroup}>
                         <label htmlFor="phone">Phone Number</label>
-                        <input onChange={handleChange} value={value.phone} type="tel" id="phone" name="phone" />
+                        <input onChange={handleChange} value={value.phone} type="tel" id="phone" name="phone" required/>
                     </div>
                 </div>
                 <div className={styles.row}>
                     <div className={`${styles.formGroup} ${styles.fullWidth}`}>
                         <label htmlFor="message">Your Message</label>
-                        <textarea onChange={handleChange} value={value.yourmessage} id="message" name="yourmessage" rows="5"></textarea>
+                        <textarea onChange={handleChange} value={value.yourmessage} id="message" name="yourmessage" rows="5" required></textarea>
                     </div>
                 </div>
                 <div className={styles.row}>
