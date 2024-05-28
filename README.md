@@ -9,6 +9,16 @@ Welcome to my personal portfolio website, a showcase of my journey and work in w
 - **Database:** MongoDB Atlas
 - **Styling:** CSS
 
+- ## Quick Demo
+
+- *Live link* - https://parhlad-singh-portfolio.vercel.app/
+
+  
+
+https://github.com/parhladSingh/My-Portfolio/assets/142223673/3cd4f23a-a1a3-4794-a5eb-002f44b03c49
+
+
+
 ## Features
 
 - **About Me:** Learn more about my background and professional journey.
@@ -24,8 +34,8 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone [Your Repository URL]
-    cd [Repository Name]
+    git clone - https://github.com/parhladSingh/My-Portfolio
+    cd My-Portfolio
     ```
 
 2. **Install dependencies:**
@@ -35,8 +45,8 @@ To run this project locally, follow these steps:
 
 3. **Create a `.env` file and add your environment variables:**
     ```plaintext
-    MONGODB_URI=your_mongodb_atlas_uri
-    PORT=your_port_number
+    MONGODB_URI=mongodb+srv://admin:parhladSingh@cluster0.w4wq4bu.mongodb.net/Contact?retryWrites=true&w=majority
+    PORT=5000
     ```
 
 4. **Run the project:**
