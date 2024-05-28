@@ -1,0 +1,51 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "Javascript",
+      "imageSrc": "skills/javascriptImg.png"
+    },
+    {
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrapImg.png"
+    },
+    {
+      "title": "Tailwindcss",
+      "imageSrc": "skills/tailwind-cssImg.png"
+    },
+    {
+      "title": "Reactjs",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Nodejs",
+      "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "Express",
+        "imageSrc": "skills/expressImg.png"
+      },
+      {
+        "title": "Mongodb",
+        "imageSrc": "skills/mongodb.png"
+      },
+
+      {
+        "title": "EJS",
+        "imageSrc": "skills/ejsImg.png"
+      },
+      {
+        "title": "HBS",
+        "imageSrc": "skills/handlebarsImg.png"
+      },
+      {
+        "title": "C++",
+        "imageSrc": "skills/langImg.png"
+      }
+  ]

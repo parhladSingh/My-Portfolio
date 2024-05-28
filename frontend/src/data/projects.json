@@ -1,0 +1,47 @@
+[
+    {
+      "title": "Cake_Bakery",
+      "imageSrc": "projects/cake-BakeryImg.png",
+      "demo": "https://parhlad-singh-cake-bakery.vercel.app/",
+      "source": "https://github.com/parhladSingh/Cake-Bakery"
+    },
+    {
+      "title": "Personal Doctor",
+      "imageSrc": "projects/personalDoctorImg.png",
+      "demo": " https://personal-doctor.vercel.app/",
+      "source": "https://github.com/parhladSingh/Personal-Doctor"
+    },
+    {
+
+      "title": "To-Do list",
+      "imageSrc": "projects/TodoImg.png",
+      "demo": "https://to-do-list-five-orcin.vercel.app/",
+      "source": "https://github.com/parhladSingh/To-Do-list"
+    },
+
+    {
+        "title": "Tic-Tac-Toe",
+        "imageSrc": "projects/TicTacToeImg.png",
+        "demo": " https://parhlad-singh-tic-tac-toe.vercel.app/",
+        "source": "https://github.com/parhladSingh/Tic-Tac-Toe"
+      },
+    {
+        "title": "My Portfolio",
+        "imageSrc": "projects/personalDoctorImg.png",
+        "demo": " https://parhladsingh.github.io/To-Do-list/",
+        "source": "https://github.com/parhladSingh/To-Do-list"
+      },
+      {
+        "title": "X-UI-clone",
+        "imageSrc": "projects/xImg.png",
+        "demo": " https://parhladsingh-x-ui-clone.netlify.app/",
+        "source": "https://github.com/parhladSingh/X-UI-Clone"
+      },
+      {
+        "title": "netflix-Clone",
+        "imageSrc": "projects/netflixImg.png",
+        "demo": "https://netflix-clone-bk6f.vercel.app/",
+        "source": "https://github.com/parhladSingh/To-Do-list"
+      }
+
+  ]

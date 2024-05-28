@@ -1,0 +1,163 @@
+@import "../../vars.css";
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 20px;
+    max-width: 345px;
+}
+
+.image{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 23px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.description{
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.skills{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+.skill{
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 8px 20px;
+}
+
+.links{
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 10px 15px;
+}
+
+
+/* Large desktops and laptops */
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 16px 22px;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    .description {
+        font-size: 23px;
+    }
+
+    .skill {
+        font-size: 23px;
+    }
+
+    .link {
+        font-size: 28px;
+    }
+}
+
+/* Small desktops and large tablets */
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 14px 20px;
+    }
+
+    .title {
+        font-size: 21px;
+    }
+
+    .description {
+        font-size: 21px;
+    }
+
+    .skill {
+        font-size: 21px;
+    }
+
+    .link {
+        font-size: 26px;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 12px 18px;
+    }
+
+    .title {
+        font-size: 19px;
+    }
+
+    .description {
+        font-size: 19px;
+    }
+
+    .skill {
+        font-size: 19px;
+    }
+
+    .link {
+        font-size: 24px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 10px 16px;
+    }
+
+    .title {
+        font-size: 17px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .image {
+        margin: 0 auto 26px; /* Center the image and keep the bottom margin */
+    }
+
+
+    .description {
+        font-size: 17px;
+    }
+
+    .skill {
+        font-size: 17px;
+    }
+
+    .link {
+        font-size: 22px;
+    }
+}

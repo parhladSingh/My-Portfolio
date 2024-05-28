@@ -1,0 +1,175 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content {
+    gap: 10px;
+}
+
+.AchievementImage {
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Achievementheading {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Achievementpara {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.EducationItemText > a {
+    text-decoration: none;
+}
+
+.Achievementbtn {
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Achievementbtn:hover {
+    background-color: blue;
+}
+
+/* Media Queries */
+
+/* Large desktops and laptops */
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 60px;
+        margin-top: 100px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .Achievementheading {
+        font-size: 45px;
+    }
+
+    .Achievementpara {
+        font-size: 18px;
+    }
+}
+
+/* Small desktops and tablets */
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 50px;
+        margin-top: 80px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .Achievementheading {
+        font-size: 40px;
+    }
+
+    .Achievementpara {
+        font-size: 16px;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 40px;
+        margin-top: 60px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AchievementImage {
+        width: 100%;
+        margin-left: 0;
+        border: 2px solid blue;
+        margin-top: 20px; /* Add space above the image */
+    }
+
+    .Achievementheading, .Achievementpara {
+        font-size: 20px;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 30px;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AchievementImage {
+        width: 100%;
+        margin-left: 0;
+        border: 2px solid blue;
+        margin-top: 20px; /* Add space above the image */
+    }
+
+    .Achievementheading, .Achievementpara {
+        font-size: 18px;
+    }
+
+    .Achievement {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
