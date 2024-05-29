@@ -45,7 +45,7 @@ const Contact = () => {
 
     return (
         <div className={styles.contactContainer} id='contact'>
-            <h1 className={styles.contactTitle}>Contact Me</h1>
+            <h1 className={styles.contactTitle}>Contact-Me</h1>
             <form onSubmit={handleSubmit} className={styles.contactForm}>
                 <div className={styles.row}>
                     <div className={styles.formGroup}>
