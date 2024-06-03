@@ -8,7 +8,8 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    min-height: 39vh; /* Change height to min-height */
+    min-height: 39vh;
+    
 }
 
 .topSection {
@@ -17,7 +18,7 @@
     width: 100%;
     max-width: 1200px;
     margin-bottom: 10px;
-    flex-wrap: wrap; /* Allow wrapping */
+    flex-wrap: wrap;
 }
 
 .para1 {
@@ -71,7 +72,7 @@
 .socialIcons {
     display: flex;
     gap: 15px;
-    flex-wrap: wrap; /* Allow wrapping */
+    flex-wrap: wrap;
 }
 
 .socialIcons a {
@@ -98,7 +99,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    flex-wrap: wrap; /* Allow wrapping */
+    flex-wrap: wrap;
 }
 
 .bottomSection p {
@@ -116,7 +117,8 @@
         text-align: center;
     }
 
-    .leftSide, .rightSide {
+    .leftSide,
+    .rightSide {
         text-align: center;
         align-items: center;
     }
@@ -146,7 +148,8 @@
         text-align: center;
     }
 
-    .leftSide, .rightSide {
+    .leftSide,
+    .rightSide {
         text-align: center;
         align-items: center;
     }
@@ -169,7 +172,8 @@
 
 /* Tablets */
 @media screen and (max-width: 768px) {
-    .topSection, .bottomSection {
+    .topSection,
+    .bottomSection {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -193,7 +197,7 @@
 @media screen and (max-width: 576px) {
     .footer {
         padding: 10px;
-        min-height: 50vh; /* Ensure minimum height for content visibility */
+        min-height: 50vh;
     }
 
     .topSection {
@@ -203,7 +207,8 @@
         padding: 10px;
     }
 
-    .leftSide, .rightSide {
+    .leftSide,
+    .rightSide {
         text-align: center;
         align-items: center;
     }
@@ -215,7 +220,7 @@
     .socialIcons {
         justify-content: center;
         margin-top: 10px;
-        flex-wrap: wrap; /* Allow wrapping */
+        flex-wrap: wrap;
     }
 
     .bottomSection {
@@ -238,5 +243,20 @@
 
     .socialIcons a {
         font-size: 36px;
+    }
+}
+
+
+@media screen and (max-width: 345px) {
+    .footer {
+        padding: 5px;
+    }
+
+    .topSection {
+        padding: 5px;
+    }
+
+    .bottomSection {
+        padding: 5px;
     }
 }

@@ -9,6 +9,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .title {
@@ -68,6 +69,16 @@
 }
 
 /* Media Queries */
+
+/* Between 767px and 1335px */
+@media screen and (min-width: 767px) and (max-width: 1335px) {
+    .AchievementImage {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid blue;
+        margin-top: 20px;
+    }
+}
 
 /* Large desktops and laptops */
 @media screen and (max-width: 1200px) {
@@ -131,10 +142,11 @@
         width: 100%;
         margin-left: 0;
         border: 2px solid blue;
-        margin-top: 20px; /* Add space above the image */
+        margin-top: 20px;
     }
 
-    .Achievementheading, .Achievementpara {
+    .Achievementheading,
+    .Achievementpara {
         font-size: 20px;
     }
 }
@@ -161,10 +173,11 @@
         width: 100%;
         margin-left: 0;
         border: 2px solid blue;
-        margin-top: 20px; /* Add space above the image */
+        margin-top: 20px;
     }
 
-    .Achievementheading, .Achievementpara {
+    .Achievementheading,
+    .Achievementpara {
         font-size: 18px;
     }
 
@@ -172,4 +185,56 @@
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+/* Below 345px */
+@media screen and (max-width: 345px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 30px 5px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .AchievementImage {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1424px) and (max-width: 3720px) {
+    .AchievementImage {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+.Achievementbtn {
+    color: white;
+    background-color: blueviolet;
+    padding: 30px;
+    width: 250px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Achievementpara{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Achievementbtn:hover {
+    background-color: blue;
+}
+
 }

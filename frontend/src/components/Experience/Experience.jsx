@@ -1,35 +1,7 @@
-// import React from 'react';
-// import skills from "../../data/skills.json";
-// import  getImageURL  from "../../utils";
-
-// const Experience = () => {
-//   return (
-//     <section id='experience'>
-//         <h2>Experience</h2>
-//         <div>
-//             <div>
-//                {skills.map((skill,id) => {
-//                     return (
-//                     <div key={id}>
-//                         <div><img src={getImageURL(skill.imageSrc)} alt={skills.title} /></div>
-//                         <p>{skill.title}</p>
-//                     </div>
-//                     );
-//                 })
-//                 }
-
-//             </div>
-//         </div>
-
-//     </section>
-//   )
-// }
-
-// export default Experience;
 import React from 'react';
 import skills from "../../data/skills.json";
 import styles from "./Experience.module.css";
-import { getImageUrl } from "../../utils"; // Correct import
+import { getImageUrl } from "../../utils"; 
 
 const Experience = () => {
   return (
@@ -43,7 +15,6 @@ const Experience = () => {
                 <img 
                   src={getImageUrl(skill.imageSrc)} 
                   alt={skill.title} 
-                //   style={{ width: skill.width }} // Dynamically set width
                 />
               </div>
               <p>{skill.title}</p>

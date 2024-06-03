@@ -12,7 +12,6 @@ const MONGO_URI = "mongodb+srv://admin:parhladSingh@cluster0.w4wq4bu.mongodb.net
 app.use(cors());
 app.use(express.json());
 
-// Serve static files from the frontend/dist directory
 app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
 
 mongoose.connect(MONGO_URI);
@@ -52,7 +51,6 @@ app.post('/contact', async (req, res) => {
     }
 });
 
-// Serve the React app for any request that doesn't match an existing file
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
 });

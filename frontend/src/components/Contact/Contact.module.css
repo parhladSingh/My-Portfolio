@@ -69,8 +69,6 @@ input, textarea {
     background-color: blue;
 }
 
-/* Media Queries */
-
 /* Large desktops and laptops */
 @media screen and (max-width: 1200px) {
     .contact-container {

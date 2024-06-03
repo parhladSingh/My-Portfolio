@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
-.navbar{
-    position:relative ;
+.navbar {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     margin: 0 10%;
 }
 
-.title{
+.title {
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
@@ -19,92 +19,93 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
-.menuItems{
+.menuItems {
     display: flex;
-    gap: 47px;
+    gap: 28px;
     list-style: none;
 }
-.menuItems a:hover{
+
+.menuItems a:hover {
     color: aquamarine;
 }
-.menuItems a{
-    font-size:25px;
+
+.menuItems a {
+    font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
 }
-.menuBtn{
+
+.menuBtn {
     width: 38px;
     display: none;
-    
+    cursor: pointer;
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1351px) {
     .navbar {
-        margin: 0 8%;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 10%;
     }
-
-    .title {
-        font-size: 28px;
+    .menuBtn {
+        display: none;
     }
-
-    .menuItems a {
-        font-size: 23px;
+    .menuItems {
+        display: flex;
     }
 }
 
-@media screen and (max-width: 992px) {
+/* Media query for 830px to 1350px */
+@media screen and (max-width: 1350px) and (min-width: 831px) {
     .navbar {
-        margin: 0 6%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10%;
     }
-
-    .title {
-        font-size: 26px;
+    .menuBtn {
+        display: block;
+        cursor: pointer;
     }
-
-    .menuItems a {
-        font-size: 21px;
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 13px;
+        width: 100%;
+        background: rgba(25, 55, 109, 0.9);
+        border-radius: 10px;
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
-}
-
-@media screen and (max-width: 768px) {
-    .navbar {
-        margin: 0 4%;
-    }
-
-    .title {
-        font-size: 24px;
-    }
-
-    .menuItems a {
-        font-size: 19px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .navbar {
-        margin: 0 2%;
-    }
-
-    .title {
-        font-size: 22px;
-    }
-
-    .menuItems a {
-        font-size: 17px;
+    .menuOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        width: 25%;
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+        border-radius: 10px;
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 100%;
+        right: 10px;
+        z-index: 1;
     }
 }
 
+/* Media query for 830px and below */
 @media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .menu {
         position: absolute;
         right: 0px;
@@ -114,12 +115,10 @@
         gap: 11px;
         z-index: 3;
     }
-
     .menuBtn {
         display: block;
         cursor: pointer;
     }
-
     .menuItems {
         display: none;
         flex-direction: column;
@@ -131,9 +130,57 @@
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
-
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 1200px) {
+    .navbar {
+        margin: 0 8%;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .menuItems a {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        margin: 0 6%;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .menuItems a {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        margin: 0 4%;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .menuItems a {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        margin: 0 2%;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .menuItems a {
+        font-size: 17px;
     }
 }

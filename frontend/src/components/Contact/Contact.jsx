@@ -26,7 +26,7 @@ const Contact = () => {
         try {
             const contact = await axios.post(`${window.location.origin}/contact`, value);
             console.log(contact.data);
-            setShowModal(true); // Show modal on successful submission
+            setShowModal(true); 
             setValue({
                 firstname: '',
                 lastname: '',

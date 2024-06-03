@@ -9,7 +9,6 @@ import Education from './components/Education/Education'
 import Achievement from './components/Achievement/Achievement';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-// import Modal from './components/Contact/Modal/Modal';
 
 function App() {
 
@@ -25,7 +24,6 @@ function App() {
       <Achievement/>
       <Contact/>
       <Footer/>
-      {/* <Modal/> */}
     </div>
   );
 }
