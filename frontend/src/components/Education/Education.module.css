@@ -329,3 +329,31 @@
         font-size: 20px; 
     }
 }
+@media screen and (max-width: 345px) {
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 30px 5px;
+    }
+
+    .title {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .EducationItem img {
+        width: 90px;
+    }
+
+    .EducationItem h3 {
+        font-size: 14px;
+    }
+
+    .EducationItem h2 {
+        font-size: 18px;
+    }
+
+    .EducationItem p {
+        font-size: 14px;
+    }
+}

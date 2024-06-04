@@ -151,3 +151,19 @@
         font-size: 16px; 
     }
 }
+
+
+@media (max-width: 345px) {
+    .skills {
+        grid-template-columns: repeat(1, 1fr); /* Set one column */
+    }
+
+    .skillImageContainer {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skill p {
+        font-size: 14px; /* Decrease font size */
+    }
+}
