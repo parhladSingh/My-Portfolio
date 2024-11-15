@@ -1,4 +1,10 @@
 [
+  {
+    "title": "DevFinder",
+    "imageSrc": "projects/DevFinder.png",
+    "demo": "https://devfinder-by-parhlad.vercel.app/",
+    "source": "https://github.com/parhladSingh/DevFinder"
+  },
     {
       "title": "Cake_Bakery",
       "imageSrc": "projects/cake-BakeryImg.png",
@@ -12,8 +18,6 @@
       "source": "https://github.com/parhladSingh/Personal-Doctor"
     },
     {
-
-
       "title": "To-Do list",
       "imageSrc": "projects/TodoImg.png",
       "demo": "https://to-do-list-five-orcin.vercel.app/",

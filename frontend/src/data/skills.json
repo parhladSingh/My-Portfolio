@@ -12,6 +12,11 @@
       "imageSrc": "skills/javascriptImg.png"
     },
     {
+      "title": "TypeScript",
+      "imageSrc": "skills/Typescript_logo.png"
+    },
+  
+    {
       "title": "Bootstrap",
       "imageSrc": "skills/bootstrapImg.png"
     },
@@ -19,9 +24,13 @@
       "title": "Tailwindcss",
       "imageSrc": "skills/tailwind-cssImg.png"
     },
-    {
+    { 
       "title": "Reactjs",
       "imageSrc": "skills/react.png"
+    },
+    { 
+      "title": "Next.js",
+      "imageSrc": "skills/NextJs.jpg"
     },
     {
       "title": "Nodejs",

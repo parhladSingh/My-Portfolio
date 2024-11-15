@@ -118,6 +118,22 @@
     .Achievementpara {
         font-size: 16px;
     }
+    .Achievementbtn {
+        /* color: white;
+        background-color: blueviolet;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 10px;
+        font-weight: bolder;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; */
+        padding: 18px;
+        width: 51%;
+        font-size: 18px;
+    }
 }
 
 /* Tablets */
