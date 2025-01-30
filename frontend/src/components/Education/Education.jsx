@@ -46,7 +46,7 @@ const Education = () => {
 
                 <div className={styles.EducationRight}>
                     <img src={getImageUrl("education/parhlad.png")} alt="Me sitting with a laptop" className={styles.EducationImage} />
-                    <a href='https://drive.google.com/drive/folders/1xx915An3P2MWO_V-aqJkPoRwUVbOGuSt?dmr=1&ec=wgc-drive-globalnav-goto' className={styles.DownloadBtn} target='_blank'>Download Resume</a>
+                    <a href='https://drive.google.com/drive/folders/1xx915An3P2MWO_V-aqJkPoRwUVbOGuSt' className={styles.DownloadBtn} target='_blank'>Download Resume</a>
                 </div>
             </div>
         </section>
