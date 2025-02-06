@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
 
 3. **Create a `.env` file and add your environment variables:**
     ```plaintext
-    MONGODB_URI=mongodb+srv://admin:parhladSingh@cluster0.w4wq4bu.mongodb.net/Contact?retryWrites=true&w=majority
+    MONGODB_URI="Add MONGODB Cluster"
     PORT=5000
     ```
 
